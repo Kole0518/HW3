@@ -106,6 +106,33 @@ body
 .career
 {
     grid-area: career;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.career > .table-container
+{
+    position: relative;
+    font-size: 0.7rem;
+    width: fit-content;
+    height: fit-content;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.career > .table-container caption
+{
+    background-color: rgb(32, 118, 194);
+    color: ghostwhite;
+    width: 40%;
+    margin-left: 10%;
+}
+
+.career > .table-container th
+{
+    background-color: rgb(32, 118, 194);
+    color: ghostwhite;
 }
 
 /* EDUCATION CSS */
