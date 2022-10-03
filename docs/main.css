@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header"
+    "profile content"
+    "footer footer";
+    background-color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+.introduction
+{
+    grid-area: profile;
+    background-color: rgba(39, 73, 137, 0.765);
+}
+
+.introduction img
+{
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 1rem auto 1rem auto;
+    border: 1rem double wheat;
+}
+
+.intro-paragraph
+{
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-top: 0.5rem solid wheat;
+    border-bottom: 0.5rem solid wheat;
+    color: ghostwhite;
+}
