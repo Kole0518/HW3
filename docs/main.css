@@ -11,13 +11,23 @@ body
     grid-template-rows: auto;
     grid-template-areas: 
     "header header"
-    "profile content"
+    "profile career"
+    "profile education"
+    "profile hobbies"
     "footer footer";
     background-color: ghostwhite;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
+    overflow-y: scroll;
 }
 
+/* HEADER CSS */
+.header
+{
+    grid-area: header;
+}
+
+/* INTRODUCTION CSS */
 .introduction
 {
     grid-area: profile;
@@ -39,6 +49,79 @@ body
     padding: 0.5rem;
     margin: 1rem;
     border-top: 0.5rem solid wheat;
+    color: ghostwhite;
+}
+
+.skill-container
+{
+    margin: 1rem;
+    padding: 0.5rem;
     border-bottom: 0.5rem solid wheat;
     color: ghostwhite;
+}
+
+.skill-container p
+{
+    padding-top: 0.5rem;
+}
+
+.bar-container
+{
+    width: 100%;
+    background-color: #DDD;
+}
+
+.skills
+{
+    text-align: right;
+    color: ghostwhite;
+    padding: 0.15rem;
+}
+
+.c
+{
+    width: 78%;
+    background-color: rgb(103, 1, 20);
+}
+
+.web
+{
+    width: 69%;
+    background-color: rgb(22, 162, 41);
+}
+
+.design
+{
+    width: 89%;
+    background-color: rgb(85, 26, 122);
+}
+
+.scripting
+{
+    width: 80%;
+    background-color: rgb(29, 54, 196);
+}
+
+/* CAREER CSS */
+.career
+{
+    grid-area: career;
+}
+
+/* EDUCATION CSS */
+.education
+{
+    grid-area: education;
+}
+
+/* HOBBIES CSS */
+.hobbies
+{
+    grid-area: hobbies;
+}
+
+/* FOOTER CSS */
+.footer
+{
+    grid-area: footer;
 }
