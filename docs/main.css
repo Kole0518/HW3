@@ -114,7 +114,7 @@ body
 .career > .table-container
 {
     position: relative;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     width: fit-content;
     height: fit-content;
     table-layout: fixed;
@@ -123,16 +123,33 @@ body
 
 .career > .table-container caption
 {
+    white-space: nowrap;
     background-color: rgb(32, 118, 194);
+    font-size: 1rem;
+    text-align: center;
     color: ghostwhite;
     width: 40%;
-    margin-left: 10%;
 }
 
 .career > .table-container th
 {
     background-color: rgb(32, 118, 194);
     color: ghostwhite;
+}
+
+.details p
+{
+    font-size: 0.7rem;
+}
+
+#marco
+{
+    background-color: rgba(20, 82, 109, 0.667);
+}
+
+#polo
+{
+    background-color: rgba(20, 104, 109, 0.667);
 }
 
 /* EDUCATION CSS */
