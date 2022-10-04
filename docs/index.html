@@ -16,12 +16,22 @@ HW3
 </head>
 <body>
     <div class="header">
+        <img src="images/logo.png" alt="logo" width="100px">
+        <h4>Bruh</h4>
+
+        <nav>
+            <a href="#career">Career</a>
+            <a href="#education">Education</a>
+            <a href="#qualifications">Qualifications</a>
+            <a href="#hobbies">Hobbies</a>
+        </nav>
     </div>
 
     <div class="introduction">
         <img src="images/profile picture.jpg" alt="profile image">
+        <h3>Kole Davis</h3>
         <p class="intro-paragraph">
-            Heya! My name is Kole Davis, a third-year undergraduate
+            Heya! I'm third-year undergraduate
             at Gonzaga University. I am pursuing a degree in Computer Science
             with a concentration in Art and Software Development.
         </p>
@@ -51,7 +61,7 @@ HW3
         </div>
     </div>
 
-    <div class="career">
+    <div class="career" id="career">
         <h1>Career</h1>
     
         <div class="table-container">
@@ -64,7 +74,7 @@ HW3
                     <th>Position</th>
                     <th>Details</th>
                 </tr>
-                <tr id="marco">
+                <tr class="marco">
                     <td>
                         <img src="https://www.thespurgroup.com/hubfs/The%20Spur%20Group%20Logo%20Main%20-%20Trimmed%20-%201486x401.png" alt="spur group logo" width="200px">
                     </td>
@@ -80,7 +90,7 @@ HW3
                         </p>
                     </td>
                 </tr>
-                <tr id="polo">
+                <tr class="polo">
                     <td>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Safeway_Logo.svg/1280px-Safeway_Logo.svg.png" alt="safeway logo" width="200px">
                     </td>
@@ -96,10 +106,10 @@ HW3
         </div>
     </div>
 
-    <div class="education">
+    <div class="education" id="education">
         <h1>Education & Qualifications</h1>
 
-        <div class="education-container">
+        <div class="table-container">
             <table>
                 <caption>Education</caption>
                 <tr>
@@ -108,31 +118,25 @@ HW3
                     <th>Type</th>
                     <th>Duration</th>
                 </tr>
-                <tr>
+                <tr class="marco">
                     <td>
-                        <img src="https://upload.wikimedia.org/wikipedia/en/3/39/Eastside_Catholic_School_Logo.png" alt="ec logo" width="75px">
-                        <br>
-                        Eastside Catholic
+                        <img src="https://upload.wikimedia.org/wikipedia/en/3/39/Eastside_Catholic_School_Logo.png" alt="ec logo" width="200px">
                     </td>
                     <td>Bellevue, WA</td>
                     <td>High School</td>
                     <td>Aug 2016 - May 2020</td>
                 </tr>
-                <tr>
+                <tr class="polo">
                     <td>
-                        <img src="https://images3.privateschoolreview.com/photo/1122x864/29000/29115/st-tidl86ycczq5.jpg" alt="SJS logo" width="75px">
-                        <br>
-                        Saint Joseph School
+                        <img src="https://images3.privateschoolreview.com/photo/1122x864/29000/29115/st-tidl86ycczq5.jpg" alt="SJS logo" width="200px">
                     </td>
                     <td>Snoqualmie, WA</td>
                     <td>Middle School (4th - 8th grade)</td>
                     <td>Sep 2011 - June 2016</td>
                 </tr>
-                <tr>
+                <tr class="marco">
                     <td>
-                        <img src="https://images3.privateschoolreview.com/photo/1122x864/29000/29115/st-tidl86ycczq5.jpg" alt="SJS logo" width="75px">
-                        <br>
-                        Saint Joseph School
+                        <img src="https://images3.privateschoolreview.com/photo/1122x864/29000/29115/st-tidl86ycczq5.jpg" alt="SJS logo" width="200px">
                     </td>
                     <td>Issaquah, WA</td>
                     <td>Middle School (2nd - 3rd grade)</td>
@@ -140,50 +144,9 @@ HW3
                 </tr>
             </table>
         </div>
-
-        <div class="work-container">
-            <table>
-                <caption>Professional Work Experience</caption>
-                <tr>
-                    <th>Company</th>
-                    <th>Location</th>
-                    <th>Duration</th>
-                    <th>Position</th>
-                    <th>Details</th>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="https://www.thespurgroup.com/hubfs/The%20Spur%20Group%20Logo%20Main%20-%20Trimmed%20-%201486x401.png" alt="spur group logo" width="75px">
-                        Spur Group
-                    </td>
-                    <td>Bellevue, WA</td>
-                    <td>Jun 2020 - Aug 2021</td>
-                    <td>Application Development & Data Analytics Intern</td>
-                    <td><p>
-                        Developed bots using Microsoft Power Automate. Worked with Microsoft Azure and Excel.
-                        Cleaned, analyzed, and presented data to employees and clients.
-                        <br>
-                        Worked on front-end website development projects (HTML, CSS, JavaScript). Created, debugged, and maintained
-                        Web Applications using frameworks (React, Bootstrap).
-                    </p></td>
-                </tr>
-                <tr>
-                    <td>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Safeway_Logo.svg/1280px-Safeway_Logo.svg.png" alt="safeway logo" width="75px">
-                        Safeway
-                    </td>
-                    <td>Snoqualmie, WA</td>
-                    <td>Apr 2018 - Jun 2020</td>
-                    <td>Courtesy Clerk & Front End Helper Clerk</td>
-                    <td><p>
-                        Aided customers around the store, bagged groceries, tended to
-                        carts and garbage, aided in maintaining the sales floor of the store.
-                    </p></td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="qualifications-container">
+    </div>
+    <div class="qualifications" id="qualifications">
+        <div class="table-container">
             <table>
                 <caption>Qualifications</caption>
                 <tr>
@@ -207,7 +170,7 @@ HW3
         </div>
     </div>
 
-    <div class="hobbies">
+    <div class="hobbies" id="hobbies">
         <h1>Hobbies & Interests</h1>
 
         <div class="hobbies-container">
